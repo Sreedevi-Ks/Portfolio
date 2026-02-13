@@ -169,15 +169,25 @@ a.active,a:hover{
 }
 
 .hero-image {
-    flex: 1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-image img {
     width: 300px;
-    border-radius: 20px;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px;        
+    border: 6px solid #ffffff;  
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);  
+    transition: 0.3s ease;
 }
+.hero-image img:hover {
+    transform: translateY(-5px);
+}
+
+
 @media (max-width: 900px) {
 
     .hero-container {
@@ -201,7 +211,9 @@ a.active,a:hover{
     }
 
     .hero-image img {
-        width: 220px;
+        width: 240px;
+        height: 280px;
+        margin-bottom: 20px;
     }
 }
 .about{
