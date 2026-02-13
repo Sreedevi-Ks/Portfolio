@@ -189,7 +189,9 @@ a.active,a:hover{
 
 
 @media (max-width: 900px) {
-
+    .hero {
+        padding: 20px 20px 40px;
+    }
     .hero-container {
         flex-direction: column-reverse;
         text-align: center;
