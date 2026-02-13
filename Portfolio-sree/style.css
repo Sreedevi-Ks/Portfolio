@@ -11,6 +11,7 @@ html{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 section{
     min-height: auto;
@@ -174,9 +175,10 @@ a.active,a:hover{
 }
 @media (max-width: 900px) {
     .hero {
-        flex-direction: column-reverse;
+        flex-direction: column;
         text-align: center;
-        padding: 50px 30px;
+        padding: 60px 20px;
+        gap: 20px;
     }
 
     .hero-text h1 {
@@ -188,13 +190,19 @@ a.active,a:hover{
     }
 
     .hero-image img {
-        width: 260px;
+        width: 230px;
         margin-bottom: 25px;
     }
 }
 @media (max-width: 600px) {
     .hero {
         padding: 40px 20px;
+    }
+    .hero-image::before {
+        width: 250px;
+        height: 250px;
+        left: 0;
+        top: -10px;
     }
 
     .hero-text h1 {
