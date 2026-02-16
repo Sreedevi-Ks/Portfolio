@@ -131,12 +131,9 @@ a.active,a:hover{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;  
-    gap: 30px;                 
-    margin: 0 auto;            
+    justify-content: space-between;
+    gap: 50px;
 }
-
-
 .hero-text {
     flex: 1;
 }
@@ -196,8 +193,6 @@ a.active,a:hover{
     .hero-container {
         flex-direction: column-reverse;
         text-align: center;
-        gap: 20px;
-        padding: 0;
     }
     .hero-image{
         margin-bottom: 20px;
