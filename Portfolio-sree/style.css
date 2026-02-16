@@ -194,17 +194,21 @@ a.active,a:hover{
 
 @media (max-width: 900px) {
     .hero {
-        padding: 10px 20px 40px;
+        padding: 20px;
         min-height: auto;
     }
     .hero-container {
         flex-direction: column-reverse;
         text-align: center;
+        gap:20px;
     }
     .hero-image{
         margin-bottom: 20px;
+        width:100%;
     }
-
+    .hero-text{
+        width:100%;
+    }
     .hero-text h1 {
         font-size: 32px;
     }
@@ -218,9 +222,9 @@ a.active,a:hover{
     }
 
     .hero-image img {
-        width: 240px;
-        height: 280px;
-        margin-bottom: 20px;
+        width: 220px;
+        height: auto;
+        margin: 0 auto;
     }
 }
 .about{
