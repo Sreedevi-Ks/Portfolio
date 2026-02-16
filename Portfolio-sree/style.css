@@ -190,34 +190,38 @@ a.active,a:hover{
 .hero-image img:hover {
     transform: translateY(-5px);
 }
-
-
 @media (max-width: 900px) {
+
+    .hero {
+        padding: 20px;
+        min-height: auto;
+    }
+
     .hero-container {
         flex-direction: column-reverse;
+        justify-content: center;   
+        align-items: center;
+        gap: 20px;                
+        width: 100%;
+    }
+
+    .hero-text {
+        width: 100%;
         text-align: center;
     }
-    .hero-image{
-        margin-bottom: 20px;
-    }
-    .hero-text h1 {
-        font-size: 32px;
-    }
 
-    .hero-text h2 {
-        font-size: 18px;
-    }
-
-    .hero-text p {
-        font-size: 15px;
+    .hero-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .hero-image img {
-        width: 240px;
-        height: 280px;
-        margin-bottom: 20px;
+        width: 220px;
+        height: auto;
     }
 }
+
 .about{
     padding: 0px 50px;
     min-height: 80vh;
