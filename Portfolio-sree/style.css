@@ -22,10 +22,6 @@ nav{
     background: #0082e6;
     height: 80px;
     width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-
 }
 label.logo{
     color: white;
@@ -77,9 +73,14 @@ a.active,a:hover{
 
     }
 }
-@media (max-width: 858px){
+@media (max-width: 859px){
     .checkbtn{
         display: block;
+    }
+    nav{
+        position: sticky;
+        top: 0;
+        z-index: 1000;
     }
     nav ul{
     position: fixed;
