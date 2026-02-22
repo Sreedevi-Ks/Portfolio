@@ -424,71 +424,10 @@ a.active,a:hover{
 .css{
     width: 70%;
 }
-/* EDUCATION - MINIMAL PROFESSIONAL */
 
-.education {
-    padding: 80px 10%;
-}
-
-.education h2 {
-    text-align: center;
-    margin-bottom: 60px;
-    font-size: 32px;
-    font-weight: 600;
-}
-
-.education-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
-    position: relative;
-}
-.education-row::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 1px;
-    background: #ddd; /* thin professional grey */
-}
-
-.edu-block {
-    flex: 1;
-    padding: 0 30px;
-}
-
-.edu-block h3 {
-    font-size: 20px;
-    margin-bottom: 8px;
-}
-
-.institution {
-    color: #555;
-    margin-bottom: 5px;
-}
-
-.duration {
-    color: #0082e6; /* your theme color */
-    font-size: 14px;
-    margin-bottom: 12px;
-}
-
-.desc {
-    color: #444;
-    line-height: 1.6;
-}
 @media(max-width:900px){
     .skills{
         padding: 40px 20px;
-    }
-    .education-row {
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .education-row::after {
-        display: none;
     }
 }
 /* project section */
