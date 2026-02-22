@@ -190,6 +190,9 @@ a.active,a:hover{
         flex-direction: column-reverse;
         text-align: center;
     }
+    .hero {
+    padding-top: 10px;
+    }
     .hero-image{
         margin-bottom: 20px;
     }
