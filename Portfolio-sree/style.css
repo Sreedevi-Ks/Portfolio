@@ -116,9 +116,9 @@ a.active,a:hover{
 .hero {
     min-height: calc(100vh - 80px);
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    padding-top: 20px;
+    padding: 60px 8%;
     background: linear-gradient(135deg, #f7f9fc, #eef3fa);
 }
 
