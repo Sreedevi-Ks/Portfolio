@@ -189,7 +189,7 @@ a.active,a:hover{
 /* Hover Effect */
 .hero-social a:hover {
     transform: translateY(-8px) scale(1.08);
-    background: #0082e6;
+    background: #f2f6ff;
     color: #fff;
     box-shadow: 0 15px 35px rgba(0, 130, 230, 0.35);
 }
