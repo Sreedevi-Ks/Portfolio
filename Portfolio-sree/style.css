@@ -424,10 +424,47 @@ a.active,a:hover{
 .css{
     width: 70%;
 }
+.education {
+    padding: 80px 8%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.education h2 {
+    margin-bottom: 40px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.edu-card {
+    background: #ffffff;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-left: 4px solid #0082e6;
+    border-radius: 6px;
+}
+
+.edu-card h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.institution {
+    color: #555;
+    margin-bottom: 4px;
+}
+
+.year {
+    color: #0082e6;
+    font-size: 14px;
+}
 
 @media(max-width:900px){
     .skills{
         padding: 40px 20px;
+    }
+    .education {
+        padding: 60px 5%;
     }
 }
 /* project section */
