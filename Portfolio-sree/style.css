@@ -23,7 +23,7 @@ nav {
     background: #0082e6;
     height: 80px;
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
