@@ -119,7 +119,7 @@ a.active,a:hover{
     align-items: center;
     justify-content: center;
     padding: 60px 8%;
-    background: linear-gradient(135deg, #f7f9fc, #eef3fa);
+    background: #ffffff;
 }
 .hero-container {
     max-width: 1100px;
@@ -221,7 +221,7 @@ a.active,a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #f7f9fc, #eef3fa)
+    background: #ffffff;
 
 }
 .about-container{
@@ -308,7 +308,7 @@ a.active,a:hover{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #f7f9fc, #eef3fa)
+    background: #ffffff;
 }
 .skills h2{
     text-align: center;
@@ -405,7 +405,7 @@ a.active,a:hover{
     padding: 60px 50px;
     min-height: 80vh;
     text-align: center;
-    background: linear-gradient(135deg, #f7f9fc, #eef3fa)
+    background: #ffffff;
 }
 
 .projects h2 {
@@ -472,7 +472,7 @@ a.active,a:hover{
     min-height: 80vh;
     background: #f7f9fc;
     text-align: center;
-    background: linear-gradient(135deg, #f7f9fc, #eef3fa)
+    background: #ffffff;
 }
 
 .contact h2 {
