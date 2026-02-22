@@ -424,108 +424,56 @@ a.active,a:hover{
 .css{
     width: 70%;
 }
-/* EDUCATION */
+/* EDUCATION - MINIMAL PROFESSIONAL */
 
 .education {
-    padding: 80px 0;
-    text-align: center;
+    padding: 80px 10%;
 }
 
 .education h2 {
+    text-align: center;
     margin-bottom: 60px;
+    font-size: 32px;
+    font-weight: 600;
 }
 
-.timeline {
-    position: relative;
-    width: 80%;
-    margin: auto;
+.education-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
 }
 
-/* Center vertical line */
-.timeline::after {
-    content: "";
-    position: absolute;
-    width: 3px;
-    background: #5bc0de;   /* same soft blue like screenshot */
-    top: 0;
-    bottom: 0;
-    left: 50%;
+.edu-block {
+    flex: 1;
 }
 
-/* Timeline item */
-.item {
-    width: 50%;
-    padding: 20px 40px;
-    position: relative;
-}
-
-.left {
-    left: 0;
-    text-align: right;
-}
-
-.right {
-    left: 50%;
-    text-align: left;
-}
-
-/* Blue dots */
-.item::before {
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    background: #5bc0de;
-    border-radius: 50%;
-    top: 25px;
-}
-
-.left::before {
-    right: -8px;
-}
-
-.right::before {
-    left: -8px;
-}
-
-/* Content box */
-.box {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.box h3 {
+.edu-block h3 {
+    font-size: 20px;
     margin-bottom: 8px;
 }
 
-.box p {
-    margin: 5px 0;
-    color: #666;
+.institution {
+    color: #555;
+    margin-bottom: 5px;
 }
 
-.box span {
+.duration {
+    color: #0082e6; /* your theme color */
     font-size: 14px;
-    color: #999;
+    margin-bottom: 12px;
 }
 
+.desc {
+    color: #444;
+    line-height: 1.6;
+}
 @media(max-width:900px){
     .skills{
         padding: 40px 20px;
     }
-    .timeline::after {
-        left: 20px;
-    }
-
-    .item {
-        width: 100%;
-        padding-left: 60px;
-        text-align: left;
-        left: 0;
-    }
-
-    .item::before {
-        left: 12px;
+    .education-row {
+        flex-direction: column;
+        gap: 40px;
     }
 }
 /* project section */
