@@ -424,9 +424,84 @@ a.active,a:hover{
 .css{
     width: 70%;
 }
+.education {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    background: #0082e6;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+.item {
+    width: 50%;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.left {
+    left: 0;
+    text-align: right;
+}
+
+.right {
+    left: 50%;
+}
+
+.box {
+    background: #f2f6ff;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.item::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #0082e6;
+    border-radius: 50%;
+    top: 30px;
+}
+
+.left::before {
+    right: -7px;
+}
+
+.right::before {
+    left: -7px;
+}
 @media(max-width:900px){
     .skills{
         padding: 40px 20px;
+    }
+    @media (max-width: 900px) {
+
+    .timeline::after {
+        left: 20px;
+    }
+
+    .item {
+        width: 100%;
+        padding-left: 50px;
+        text-align: left;
+        left: 0;
+    }
+
+    .item::before {
+        left: 12px;
     }
 }
 /* project section */
