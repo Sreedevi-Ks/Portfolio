@@ -19,13 +19,12 @@ section{
      scroll-margin-top: 80px;
 }
 /* NAVBAR*/
-nav {
+nav{
     background: #0082e6;
     height: 80px;
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
     z-index: 1000;
 }
 label.logo{
@@ -115,15 +114,13 @@ a.active,a:hover{
 }
 /*HERO*/
 .hero {
-    margin-top: 80px;
-    min-height: 90vh;
+    min-height: calc(100vh - 80px);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 60px 8%;
     background: linear-gradient(135deg, #f7f9fc, #eef3fa);
 }
-
 .hero-container {
     max-width: 1100px;
     width: 100%;
