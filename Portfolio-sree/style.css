@@ -415,8 +415,6 @@ a.active,a:hover{
 .python{
     width: 70%;
 }
-.django{
-    width: 75%;
 .sql{
     width: 80%;
 }
@@ -424,13 +422,6 @@ a.active,a:hover{
     width: 85%;
 }
 .css{
-    width: 70%;
-}
-.javascript{
-    width: 65%;
-}
-
-.react{
     width: 70%;
 }
 .education {
@@ -529,20 +520,6 @@ a.active,a:hover{
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
-}
-    .project-card a{
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: #0082e6;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    transition: 0.3s;
-}
-
-.project-card a:hover{
-    background: #006bbd;
 }
 @media (max-width: 900px){
     .projects-card{
